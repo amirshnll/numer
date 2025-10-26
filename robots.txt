@@ -1,0 +1,23 @@
+User-agent: *
+
+disallow: */?*
+disallow: *?*
+Disallow: *.htm
+Disallow: *.html
+
+Sitemap: https://numer.ir/sitemap.xml
+
+User-Agent: Mediapartners-Google
+Allow: /
+
+User-Agent: Adsbot-Google
+Allow: /
+
+User-Agent: Googlebot-Image
+Allow: /
+
+User-Agent: Googlebot-Mobile
+Allow: /
+
+User-Agent: Googlebot
+Allow: /

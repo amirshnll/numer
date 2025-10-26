@@ -1,0 +1,164 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  color: #444;
+  font-family: Abel, sans-serif;
+  width: 400px;
+  min-height: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+}
+
+a:hover {
+  color: #ff0b0b;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  width: 90%;
+  position: relative;
+}
+
+.page {
+  margin: 45px auto 20px;
+}
+
+#entextarea,
+#fatextarea {
+  resize: none;
+  width: 100%;
+  font: 16px Abel, sans-serif;
+  line-height: 20px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  outline: none;
+}
+
+#entextarea {
+  background: #fff;
+}
+
+#fatextarea {
+  background: #f5f5f5;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  z-index: 2;
+  color: #fff;
+  line-height: 40px;
+  background: #ff0b0b;
+  overflow: hidden;
+}
+
+h1 {
+  font: 30px Abel, sans-serif;
+  color: #ff0b0b;
+  text-align: center;
+  padding: 15px 0 20px 0;
+  margin-top: 10px;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.contain-part {
+  float: left;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.container-mid {
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+.container-full {
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+.radio {
+  display: inline-block;
+  height: 40px;
+  line-height: 38px;
+  padding: 0 15px;
+  font-size: 12px;
+  margin: 0 2px;
+  margin-top: 10px;
+  padding-left: 40px;
+  position: relative;
+  color: #444;
+  letter-spacing: 1px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.radio .icon {
+  background: none;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  margin-top: -8px;
+  border-radius: 100%;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.language {
+  background: #fff;
+  cursor: default;
+  color: #222;
+}
+
+.language .icon {
+  background: #ff0b0b;
+  border: 0;
+}
+
+footer {
+  margin-top: 40px
+}
+
+.footer {
+  text-align: center;
+  font: 10px Abel, sans-serif;
+  color: #777;
+  background: #eee;
+  height: 30px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer a {
+  color: #777;
+}
+
+.logo a {
+  color: #fff
+}

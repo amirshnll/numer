@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Numer - Number Converter</title>
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <header>
+    <div class="nav">
+      <div class="container">
+        <div class="logo">
+          <a href="https://numer.ir" target="_blank" title="Convert English Numbers to Persian / Arabic"
+            rel="noopener nofollow noreferrer">
+            Numer</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container page">
+    <main>
+      <h1>Numbers Converter</h1>
+      <div class="contain-part container-full">
+        <div class="radio language" id="fa">
+          <div class="icon"><i></i></div>To Persian
+        </div>
+        <div class="radio" id="ar">
+          <div class="icon"></div>To Arabic
+        </div>
+        <div class="radio" id="en">
+          <div class="icon"></div>To English
+        </div>
+      </div>
+      <div class="contain-part container-mid">
+        <textarea id="entextarea" placeholder="Enter numbers here..." rows="5"></textarea>
+      </div>
+      <div class="contain-part container-mid">
+        <textarea id="fatextarea" readonly onfocus="select()" placeholder="Converted numbers will appear here..."
+          rows="5"></textarea>
+      </div>
+      <div class="clear"></div>
+    </main>
+  </div>
+  <footer>
+    <div class="footer">
+      <div class="container">&copy; 2015 -
+        <script>document.write(new Date().getFullYear());</script> Numer.ir, All rights reserved. | <a
+          href="https://ashokri.com/donate" target="_blank" rel="noopener nofollow noreferrer"
+          title="Donate to Numer">Donate</a>
+      </div>
+    </div>
+  </footer>
+  <script src="popup.js"></script>
+</body>
+
+</html>
