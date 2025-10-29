@@ -11,12 +11,12 @@ Visit our website: [https://numer.ir/](https://numer.ir/)
 ### Chrome Extension
 
 The Chrome extension is available in the Chrome Web Store:
-[Numer - Number Converter for Chrome](#)
+[Numer - Number Converter for Chrome](https://chromewebstore.google.com/detail/numer-number-converter/jnooafhfkkpkfoeehiiddjgofeeopdin)
 
 ### Firefox Add-on
 
 The Firefox add-on is available in the Firefox Browser Add-ons:
-[Numer - Number Converter for Firefox](#)
+[Numer - Number Converter for Firefox](https://addons.mozilla.org/addon/numer-number-converter/)
 
 ## Features
 
